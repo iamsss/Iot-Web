@@ -19,6 +19,7 @@ require('./Pipe/currentYear.pipe');
 require('./Config/view.config');
 require('./Controller/HomeController/home.controller');
 require('./Controller/UserController/user.controller');
+require('./Controller/BulbController/bulb.controller');
 
 
 // The 404 Not Found Route (ALWAYS Keep this as the last route)
