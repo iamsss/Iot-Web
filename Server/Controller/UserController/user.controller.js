@@ -1,6 +1,7 @@
 const {app} = require('../../server');
-
+const _ = require('lodash');
 const {authenticate} = require('../../middleware/authenticate');
+const { User } = require('../../models/user');
 
 app.post('/users',(req,res) => {
     var body = _.pick(req.body,['email','password']);
