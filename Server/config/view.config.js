@@ -6,8 +6,8 @@ const bodyParser = require('body-parser');
 
 // Path Declarations
 const publicPath = path.join(__dirname, '../../Public');
-const partialViewPath = path.join(__dirname, '../Views/partials');
-const viewPath = path.join(__dirname, '\../Views');
+const partialViewPath = path.join(__dirname, '../views/partials');
+const viewPath = path.join(__dirname, '\../views');
 
 
 app.use(bodyParser.json());
